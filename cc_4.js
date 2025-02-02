@@ -27,3 +27,13 @@ while (stock > 0) {
 
 console.log("We Are Currently Out Of Stock. Please Check Back Later!")
 // Declared the amount of stock remaining and created a while loop decreasing the amount until it hit 0. Then it prints everything to the console with an out of stock message.
+
+// Task 4: Customer Survey
+let responses = 0;
+do {
+    responses++;
+    console.log(`Survey Answers: ${responses}`);
+} 
+
+while (responses < 3);
+// Declared the responses and a value indicating the amount, then created a do while loop to generate responses up to 3. Then it prints to the console.
