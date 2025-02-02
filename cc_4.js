@@ -72,3 +72,12 @@ function calculateTax(amount, taxRate) {
 let taxes = calculateTax(999, 0.09);
 console.log(`Taxes: $${taxes}`);
 // Created a function that calculated the tax on 999. Then had it print to the console.
+
+// Task 9: Discount Application
+const applyDiscount = (price, discount) => {
+    return price - (price * discount);
+}
+
+let priceDecrease = applyDiscount(999, 0.3)
+console.log(`Discounted Price: $${priceDecrease}`);
+// Created a function that applied a discount to the price set. Then, it prints the discounted price to the console.
