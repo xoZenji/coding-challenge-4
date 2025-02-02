@@ -17,3 +17,13 @@ for ( let i = 0; i < sales.length; i++) {
 
 console.log (`Total Sales: $${totalSales}`);
 // Declared the array "sales" and assigned values to indicate the sales. Then created a for loop calculating total sales and printing it to the console.
+
+// Task 3: Inventory Depletion
+let stock = 10;
+while (stock > 0) {
+    stock--;
+    console.log(`Backstock: ${stock}`);
+}
+
+console.log("We Are Currently Out Of Stock. Please Check Back Later!")
+// Declared the amount of stock remaining and created a while loop decreasing the amount until it hit 0. Then it prints everything to the console with an out of stock message.
