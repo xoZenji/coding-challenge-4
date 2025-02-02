@@ -49,3 +49,10 @@ for (let key in employee) {
     console.log(`${key}: ${employee[key]}`);
 }
 // Declared employee as an object and assigned a name, position, and salary to it. Then wrote a for in loop to print the key and value to the console.
+
+// Task 6: Product Listings
+let products = ["PS5", "Xbox", "Oculus", "Steamdeck",];
+for (let systems of products) {
+    console.log(`Available Systems: ${systems}`);
+}
+// Declared the array products and assigned items to it. Then made a for of loop to print the items to the console.
