@@ -56,3 +56,10 @@ for (let systems of products) {
     console.log(`Available Systems: ${systems}`);
 }
 // Declared the array products and assigned items to it. Then made a for of loop to print the items to the console.
+
+// Task 7: Order Processing
+let orders = [101, 202, 303];
+orders.forEach(order => {
+    console.log(`Order #: ${order}`);
+});
+// Created an array of order numbers and used forEach to print the orders into the console.
