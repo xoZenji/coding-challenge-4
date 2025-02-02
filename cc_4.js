@@ -63,3 +63,12 @@ orders.forEach(order => {
     console.log(`Order #: ${order}`);
 });
 // Created an array of order numbers and used forEach to print the orders into the console.
+
+// Task 8: Tax Calculation
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+
+let taxes = calculateTax(999, 0.09);
+console.log(`Taxes: $${taxes}`);
+// Created a function that calculated the tax on 999. Then had it print to the console.
