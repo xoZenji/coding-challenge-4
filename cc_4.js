@@ -81,3 +81,12 @@ const applyDiscount = (price, discount) => {
 let priceDecrease = applyDiscount(999, 0.3)
 console.log(`Discounted Price: $${priceDecrease}`);
 // Created a function that applied a discount to the price set. Then, it prints the discounted price to the console.
+
+// Task 10: Loyalty Points
+const calculatePoints = purchaseAmount => {
+    return (purchaseAmount / 10);
+}
+
+let rewardPoints = calculatePoints(800);
+console.log(`Available Points: ${rewardPoints}`);
+// Created a function that calculates the amount of points based on purchase size (1 point for every 10 dollars). Then, it prints the points to the console.
