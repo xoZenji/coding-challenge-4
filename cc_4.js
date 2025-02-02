@@ -37,3 +37,15 @@ do {
 
 while (responses < 3);
 // Declared the responses and a value indicating the amount, then created a do while loop to generate responses up to 3. Then it prints to the console.
+
+// Task 5: Employee Information
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+};
+
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+}
+// Declared employee as an object and assigned a name, position, and salary to it. Then wrote a for in loop to print the key and value to the console.
